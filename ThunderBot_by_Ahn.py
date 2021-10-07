@@ -83,3 +83,6 @@ async def on_message(message):
         await channel.send('❌'+" 참여 가능한 시간이 초과되었습니다.")
     else:
         await channel.send("💬"+ user.name + "님이(가) 참여를 희망합니다")
+
+access_token = os.environ['BOT_TOKEN']
+client.run(access_token)
