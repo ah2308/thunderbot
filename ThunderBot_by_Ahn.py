@@ -135,5 +135,5 @@ async def on_message(message):
         else:
             await channel.send("💬"+ user.name + "님이(가) 참여를 희망합니다")
 
-
-client.run([os.environ'ODk1NjAxNTk3OTk5MTA4MTA2.YV67_A.fdsP25TEtjb2CCGgbuzzAwkwfKw'])
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
