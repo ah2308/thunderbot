@@ -100,5 +100,6 @@ async def on_reaction_add(reaction, user):
     if str(reaction.emoji) == "👍":
         await reaction.message.channel.send("💬"+ user.name + "님이(가) 참여를 희망합니다")
 
+
 access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
