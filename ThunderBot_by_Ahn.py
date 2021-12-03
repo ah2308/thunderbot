@@ -25,7 +25,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="쿠크세이튼 리허설 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[7:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -34,7 +34,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="아브렐슈드 데자뷰 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[7:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -43,7 +43,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="비아키스 노말 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -52,7 +52,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="비아키스 하드 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -61,7 +61,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="발탄 노말 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -70,7 +70,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="발탄 하드 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -79,7 +79,7 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="아브렐슈드 노말 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
@@ -88,7 +88,16 @@ async def on_message(message):
         await message.channel.send("@everyone")
         embed = discord.Embed(title="아브렐슈드 하드 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
         embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
-        embed.set_footer(text="ThunderBot by. 안태훈")
+        embed.set_footer(text="ThunderBot_1.1v")
+        msg = await message.channel.send(embed=embed)
+        channel = message.channel
+        await msg.add_reaction("👍")
+        
+    if message.content.startswith("!쿠크노말"):
+        await message.channel.send("@everyone")
+        embed = discord.Embed(title="쿠크세이튼 노말 모집", timestamp=datetime.datetime.now(pytz.timezone('UTC')), color=0x00ff00)
+        embed.add_field(name=message.content[6:], value="참여를 원하시면 아래 👍이모지를 눌러주세요", inline=False)
+        embed.set_footer(text="ThunderBot_1.1v")
         msg = await message.channel.send(embed=embed)
         channel = message.channel
         await msg.add_reaction("👍")
