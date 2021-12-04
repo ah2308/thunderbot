@@ -2,3 +2,5 @@ discord.py
 asyncio
 datetime
 pytz
+embeds
+commands
