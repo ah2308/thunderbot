@@ -28,7 +28,7 @@ async def 청소(ctx, amount=100):
 
 @client.command()
 async def 발탄노말(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -40,7 +40,7 @@ async def 발탄노말(ctx):
 
 @client.command()
 async def 발탄하드(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -52,7 +52,7 @@ async def 발탄하드(ctx):
 
 @client.command()
 async def 비아노말(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -64,7 +64,7 @@ async def 비아노말(ctx):
 
 @client.command()
 async def 비아하드(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -76,7 +76,7 @@ async def 비아하드(ctx):
 
 @client.command()
 async def 쿠크노말(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -88,7 +88,7 @@ async def 쿠크노말(ctx):
 
 @client.command()
 async def 아브2관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -100,7 +100,7 @@ async def 아브2관(ctx):
 
 @client.command()
 async def 아브4관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -112,7 +112,7 @@ async def 아브4관(ctx):
 
 @client.command()
 async def 아브6관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -124,7 +124,7 @@ async def 아브6관(ctx):
 
 @client.command()
 async def 하브2관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -136,7 +136,7 @@ async def 하브2관(ctx):
 
 @client.command()
 async def 하브4관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -148,7 +148,7 @@ async def 하브4관(ctx):
 
 @client.command()
 async def 하브6관(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -160,7 +160,7 @@ async def 하브6관(ctx):
 
 @client.command()
 async def 쿠크리허설(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
@@ -172,7 +172,7 @@ async def 쿠크리허설(ctx):
 
 @client.command()
 async def 아브데자뷰(ctx):
-    await ctx.channel.send("@here")
+    await ctx.channel.send("@everyone")
     embed = discord.Embed(title="레이드 모집 공고",color = discord.Colour.red())
     embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
     embed.set_footer(text="ThunderBot_1.1v", icon_url="https://i.imgur.com/i84hned.png")
