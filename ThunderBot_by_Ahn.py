@@ -169,6 +169,13 @@ async def 아브데자뷰(ctx):
     msg = await ctx.channel.send(embed=embed)
     await msg.add_reaction("⭕")
 
+@client.command()
+async def 실험(ctx):
+    await ctx.channel.send("@everyone")
+    embed = discord.Embed(title="실험용 제목", color = discord.Colour.red())
+    msg = await ctx.channel.send
+    await ctx.channel.send(embed=embed)
+    
 @client.event
 async def on_reaction_add(reaction, user):
     if user.bot == 1: #봇이면 패스
