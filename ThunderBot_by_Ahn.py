@@ -35,7 +35,6 @@ async def 발탄노말(ctx):
     embed.add_field(name="발탄 NORMAL : 1415↑", value="아래 ⭕를 눌러 참여신청", inline=False)
     embed.set_image(url="https://i.imgur.com/jhmW0so.jpg/")
     msg = await ctx.channel.send(embed=embed)
-    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
