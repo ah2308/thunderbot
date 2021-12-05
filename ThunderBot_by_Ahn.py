@@ -36,6 +36,7 @@ async def 발탄노말(ctx):
     embed.set_image(url="https://i.imgur.com/jhmW0so.jpg/")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -48,6 +49,7 @@ async def 발탄하드(ctx):
     embed.set_image(url="https://i.imgur.com/jhmW0so.jpg/")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -60,6 +62,7 @@ async def 비아노말(ctx):
     embed.set_image(url="https://i.imgur.com/qXomO9A.jpg")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -72,6 +75,7 @@ async def 비아하드(ctx):
     embed.set_image(url="https://i.imgur.com/qXomO9A.jpg")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -84,6 +88,7 @@ async def 쿠크노말(ctx):
     embed.set_image(url="https://i.imgur.com/RwUFJXE.jpg")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -96,6 +101,7 @@ async def 아브2관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -108,6 +114,7 @@ async def 아브4관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -120,6 +127,7 @@ async def 아브6관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -132,6 +140,7 @@ async def 하브2관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -144,6 +153,7 @@ async def 하브4관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -156,6 +166,7 @@ async def 하브6관(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -168,6 +179,7 @@ async def 쿠크리허설(ctx):
     embed.set_image(url="https://i.imgur.com/RwUFJXE.jpg")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -180,6 +192,7 @@ async def 아브데자뷰(ctx):
     embed.set_image(url="https://imgur.com/rhKKyqE")
     msg = await ctx.channel.send(embed=embed)
     channel = ctx.command.channel
+    await ctx.send(embed=embed)
     await msg.add_reaction("⭕")
 
 @client.command()
@@ -188,6 +201,7 @@ async def 실험(ctx):
     embed = discord.Embed(title="실험용 제목", color = discord.Colour.red())
     msg = await ctx.channel.send
     await ctx.channel.send(embed=embed)
+    await ctx.send(embed=embed)
     channel = ctx.command.channel
     
 @client.event
