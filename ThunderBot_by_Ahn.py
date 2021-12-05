@@ -198,9 +198,8 @@ async def 아브데자뷰(ctx):
 @client.command()
 async def 실험(ctx):
     await ctx.channel.send("@everyone")
-    embed = discord.Embed(title="실험용 제목", color = discord.Colour.red())
-    msg = await ctx.channel.send
-    await ctx.channel.send(embed=embed)
+    embed = discord.Embed(title="실험용 제목", description="실험용 디스크립션" color = discord.Colour.red())
+    msg = await ctx.channel.send(embed=embed)
     await ctx.send(embed=embed)
     channel = ctx.command.channel
     
