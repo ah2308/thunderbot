@@ -157,7 +157,7 @@ async def on_reaction_add(reaction, user, avamember : discord.Member=None):
     if user.bot == 1: #봇이면 패스
         return None
     if str(reaction.emoji) == "⭕":
-        await reaction.message.channel.send("📌" + user.name + "님이(가) 참여")
+        await reaction.message.channel.send("🟢" + user.name + "님이(가) 참여")
 
 @client.command()
 async def 입찰(ctx, a:int):
